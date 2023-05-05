@@ -1,0 +1,25 @@
+<h1>Hello {{name}}!</h1>
+    <a target="_blank" href="https://angular.io/start">
+      Learn more about Angular 
+    </a>
+<h2>{{title}}</h2>
+<br/>
+<label for="txtA"> A: </label>
+<input type="text" id="txtA" [(ngModel)]="a"/>
+<br/>
+<label for="txtB"> B: </label>
+<input type="text" id="txtB" [(ngModel)]="b"/>
+<br/>
+
+<button (click)="calcular()">Calcular</button>
+<h3>Resultados : </h3>
+<p>
+ Suma = {{suma}}
+ <br/>
+ Resta = {{resta}}
+ <br/>
+ Producto = {{producto}}
+ <br/>
+ Division = {{division}}
+</p>
+
