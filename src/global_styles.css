@@ -14,6 +14,7 @@
   border: solid #000 2px;
   top:0;
   height: auto;
+  
 }
 
 .header-logo img {
@@ -90,4 +91,61 @@
 
 .rightsidebar a:hover {
   background-color: #ddd;
+}
+
+/*Estilos para el componente LeftSideBar*/
+
+.leftsidebar {
+  position: fixed;
+  
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+.leftsidebar nav {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.leftsidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.leftsidebar li {
+  padding: 10px;
+}
+
+.leftsidebar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.leftsidebar a:hover {
+  background-color: #ddd;
+}
+
+/*Estilos para el componente footer/*/
+.footer-container {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-p {
+  margin: 0;
 }
