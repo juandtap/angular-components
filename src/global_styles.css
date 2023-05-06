@@ -1,4 +1,93 @@
 /* Add application styles & imports to this file! */
-.back{
-  background-color: greenyellow;
+.background-app{
+  background-color: #fff;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Estilos para el comopenete header*/
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #333;
+  border: solid #000 2px;
+  top:0;
+  height: auto;
+}
+
+.header-logo img {
+  width: 150px;
+  height: 100px;
+}
+
+.header-title {
+  text-align: center;
+  color: white;
+}
+
+.header-nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.header-nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav li {
+  margin: 0 10px;
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.header-nav a:hover {
+  background-color: #666;
+}
+
+/*Estilos para el componente RightSideBar*/
+
+.rightsidebar {
+  position: fixed;
+  
+  right: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+.rightsidebar nav {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.rightsidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rightsidebar li {
+  padding: 10px;
+}
+
+.rightsidebar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.rightsidebar a:hover {
+  background-color: #ddd;
 }
