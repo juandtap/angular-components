@@ -7,11 +7,12 @@ import { HeaderComponent } from './header/header.component';
 import { RightSideBarComponent } from './right-side-bar/right-side-bar.component';
 import { LeftSideBarComponent } from './left-side-bar/left-side-bar.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContentComponent } from './content/content.component';
 
 @Component({
   selector: 'my-app',
   standalone: true,
-  imports: [CommonModule, FormsModule, HeaderComponent, RightSideBarComponent, LeftSideBarComponent, FooterComponent],
+  imports: [CommonModule, FormsModule, HeaderComponent, RightSideBarComponent, LeftSideBarComponent, FooterComponent, ContentComponent],
   templateUrl: './main.html',
   //styleUrls:['./main.css'],
 })
